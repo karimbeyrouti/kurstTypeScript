@@ -1,4 +1,4 @@
-import ColorUtils   = require("../utils/ColorUtils");
+import ColorUtils   from "../utils/ColorUtils"
 
 /**
 * The ColorTransform class lets you adjust the color values in a display

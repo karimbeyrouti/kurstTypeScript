@@ -1,5 +1,5 @@
-import SVGObjectBase    = require("./SVGObjectBase");
-import SVGGradientStop  = require("./../gradients/SVGGradientStop");
+import SVGObjectBase    from "./SVGObjectBase"
+import SVGGradientStop  from "./../gradients/SVGGradientStop"
 
 class SVGGradientBase extends SVGObjectBase
 {

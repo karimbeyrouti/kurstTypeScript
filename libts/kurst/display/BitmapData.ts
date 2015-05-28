@@ -1,11 +1,11 @@
 
-import Point            = require("../geom/Point");
-import Rectangle        = require("../geom/Rectangle");
-import Matrix           = require("../geom/Matrix");
-import ColorUtils       = require("../utils/ColorUtils");
-import ByteArray        = require("../utils/ByteArray");
-import ColorTransform   = require("../geom/ColorTransform");
-import BlendMode        = require("./BlendMode");
+import Point            from "../geom/Point"
+import Rectangle        from "../geom/Rectangle"
+import Matrix           from "../geom/Matrix"
+import ColorUtils       from "../utils/ColorUtils"
+import ByteArray        from "../utils/ByteArray"
+import ColorTransform   from "../geom/ColorTransform"
+import BlendMode        from "./BlendMode"
 
 /**
  * The BitmapData class lets you work with the data(pixels) of a Bitmap

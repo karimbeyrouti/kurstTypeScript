@@ -1,7 +1,7 @@
-import EventDispatcher 	= require("../events/EventDispatcher");
-import Event 			= require("../events/Event");
-import JSONLoader 		= require("./JSONLoader");
-import GeoData 			= require("./data/GeoData");
+import EventDispatcher 	from "../events/EventDispatcher"
+import Event 			from "../events/Event"
+import JSONLoader 		from "./JSONLoader"
+import GeoData 			from "./data/GeoData"
 
 class IPGeoCoder extends EventDispatcher
 {

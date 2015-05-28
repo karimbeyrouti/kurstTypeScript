@@ -44,8 +44,8 @@
 * <code>drawRect()</code> method of the Graphics class.</p>
 */
 
-import Point = require("./Point");
-import NumberUtils = require("../utils/NumberUtils");
+import Point from "./Point"
+import NumberUtils from "../utils/NumberUtils"
 
 class Rectangle
 {

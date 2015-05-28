@@ -1,4 +1,4 @@
-import ByteArray   = require("./ByteArray");
+import ByteArray   from "./ByteArray"
 
 
 class ImageUtils

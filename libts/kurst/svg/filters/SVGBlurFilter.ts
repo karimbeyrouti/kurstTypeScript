@@ -1,4 +1,4 @@
-import SVGFilterBase            = require("./../core/SVGFilterBase");
+import SVGFilterBase            from "./../core/SVGFilterBase"
 
 class SVGBlurFilter extends SVGFilterBase
 {

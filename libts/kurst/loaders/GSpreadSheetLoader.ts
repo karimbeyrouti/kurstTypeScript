@@ -1,6 +1,6 @@
-import EventDispatcher = require("../events/EventDispatcher");
-import Event = require("../events/Event");
-import JSONLoader = require("./JSONLoader");
+import EventDispatcher from "../events/EventDispatcher"
+import Event from "../events/Event"
+import JSONLoader from "./JSONLoader"
 
 class GSpreadSheetLoader extends EventDispatcher
 {

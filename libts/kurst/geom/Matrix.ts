@@ -1,6 +1,6 @@
-import Vector3D         = require("../geom/Vector3D");
-import Point            = require("../geom/Point");
-import ArgumentError    = require("../errors/ArgumentError");
+import Vector3D         from "../geom/Vector3D"
+import Point            from "../geom/Point"
+import ArgumentError    from "../errors/ArgumentError"
 
 /**
 * The Matrix class represents a transformation matrix that determines how to

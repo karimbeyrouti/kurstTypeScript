@@ -9,10 +9,10 @@
 /// <reference path="../../libs/tweenlite.d.ts" />
 
 
-import EventDispatcher 				= require("../events/EventDispatcher");
-import Event 						= require("../events/Event");
-import TrackballControlsState		= require("./TrackballControlsState");
-import TrackballControlsScreen		= require("./TrackballControlsScreen");
+import EventDispatcher 				from "../events/EventDispatcher"
+import Event 						from "../events/Event"
+import TrackballControlsState		from "./TrackballControlsState"
+import TrackballControlsScreen		from "./TrackballControlsScreen"
 
 class TrackballControls extends EventDispatcher
 {

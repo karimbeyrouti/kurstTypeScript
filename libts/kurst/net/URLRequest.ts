@@ -1,4 +1,4 @@
-import URLRequestMethod 			= require("./URLRequestMethod");
+import URLRequestMethod 			from "./URLRequestMethod"
 /**
  *
  */

@@ -1,5 +1,5 @@
-import SVGPath                    = require("./SVGPath");
-import Point                    = require("../../geom/Point");
+import SVGPath                    from "./SVGPath"
+import Point                    from "../../geom/Point"
 
 /**
  * Notes:

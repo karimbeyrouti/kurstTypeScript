@@ -1,5 +1,5 @@
-import SVGObjectBase        = require("./SVGObjectBase");
-import SVGGradientBase		= require("./SVGGradientBase");
+import SVGObjectBase        from "./SVGObjectBase"
+import SVGGradientBase		from "./SVGGradientBase"
 
 class SVGFilterBase extends SVGObjectBase
 {

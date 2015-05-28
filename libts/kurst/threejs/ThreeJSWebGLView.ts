@@ -10,11 +10,11 @@
 * @author Karim Beyrouti / http://kurst.co.uk
 */
 
-import EventDispatcher 			= require("../events/EventDispatcher");
-import Event 					= require("../events/Event");
-import OrbitControls			= require("./OrbitControls");
-import Detector					= require("./Detector");
-import TrackballControls		= require("./TrackballControls");
+import EventDispatcher 			from "../events/EventDispatcher"
+import Event 					from "../events/Event"
+import OrbitControls			from "./OrbitControls"
+import Detector					from "./Detector"
+import TrackballControls		from "./TrackballControls"
 
 
 class ThreeJSWebGLView extends EventDispatcher{

@@ -1,4 +1,4 @@
-import SVGDisplayObjectBase            = require("./../core/SVGDisplayObjectBase");
+import SVGDisplayObjectBase            from "./../core/SVGDisplayObjectBase"
 
 class SVGRectangle extends SVGDisplayObjectBase
 {

@@ -1,16 +1,16 @@
-import EventDispatcher = require("../../events/EventDispatcher");
-import Event = require("../../events/Event");
-import IOErrorEvent = require("../../events/IOErrorEvent");
-import URLLoader = require("../../net/URLLoader");
-import URLLoaderDataFormat = require("../../net/URLLoaderDataFormat");
-import URLRequest = require("../../net/URLRequest");
-import SVGGroup = require("../display/SVGGroup");
-import SVGRectangle = require("../display/SVGRectangle");
-import SVGCircle = require("../display/SVGCircle");
-import SVGPolygon = require("../display/SVGPolygon");
-import SVGPath = require("../display/SVGPath");
-import SVGText = require("../display/SVGText");
-import SVGDisplayObjectBase = require("./../core/SVGDisplayObjectBase");
+import EventDispatcher from "../../events/EventDispatcher"
+import Event from "../../events/Event"
+import IOErrorEvent from "../../events/IOErrorEvent"
+import URLLoader from "../../net/URLLoader"
+import URLLoaderDataFormat from "../../net/URLLoaderDataFormat"
+import URLRequest from "../../net/URLRequest"
+import SVGGroup from "../display/SVGGroup"
+import SVGRectangle from "../display/SVGRectangle"
+import SVGCircle from "../display/SVGCircle"
+import SVGPolygon from "../display/SVGPolygon"
+import SVGPath from "../display/SVGPath"
+import SVGText from "../display/SVGText"
+import SVGDisplayObjectBase from "./../core/SVGDisplayObjectBase"
 
 class SVGLoader extends EventDispatcher {
 

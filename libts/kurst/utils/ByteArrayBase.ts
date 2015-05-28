@@ -1,4 +1,4 @@
-import AbstractMethodError   = require("../errors/AbstractMethodError");
+import AbstractMethodError   from "../errors/AbstractMethodError"
 
 class ByteArrayBase
 {

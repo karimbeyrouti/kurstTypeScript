@@ -1,8 +1,8 @@
-import Event            = require("../../events/Event");
-import EventDispatcher  = require("../../events/EventDispatcher");
-import SVGGradientBase	= require("./SVGGradientBase");
-import Point            = require("../../geom/Point");
-import SVGObjectBase	= require("./SVGObjectBase");
+import Event            from "../../events/Event"
+import EventDispatcher  from "../../events/EventDispatcher"
+import SVGGradientBase	from "./SVGGradientBase"
+import Point            from "../../geom/Point"
+import SVGObjectBase	from "./SVGObjectBase"
 
 class SVGDisplayObjectBase extends SVGObjectBase
 {

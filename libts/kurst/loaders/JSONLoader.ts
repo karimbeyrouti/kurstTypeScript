@@ -1,5 +1,5 @@
-import EventDispatcher = require("../events/EventDispatcher");
-import Event = require("../events/Event");
+import EventDispatcher from "../events/EventDispatcher"
+import Event from "../events/Event"
 
 class JSONLoader extends EventDispatcher {
 

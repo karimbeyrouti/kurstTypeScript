@@ -1,5 +1,5 @@
 
-import Error = require("./Error");
+import Error from "./Error"
 /**
  * AbstractMethodError is thrown when an abstract method is called. The method in question should be overridden
  * by a concrete subclass.

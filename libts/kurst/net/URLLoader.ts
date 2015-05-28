@@ -1,12 +1,12 @@
-import EventDispatcher 		= require("../events/EventDispatcher");
-import Event 				= require("../events/Event");
-import IOErrorEvent 		= require("../events/IOErrorEvent");
-import ProgressEvent	 	= require("../events/ProgressEvent");
-import HTTPStatusEvent	 	= require("../events/HTTPStatusEvent");
-import URLLoaderDataFormat 	= require("./URLLoaderDataFormat");
-import URLRequest 			= require("./URLRequest");
-import URLRequestMethod		= require("./URLRequestMethod");
-import URLVariables			= require("./URLVariables");
+import EventDispatcher 		from "../events/EventDispatcher"
+import Event 				from "../events/Event"
+import IOErrorEvent 		from "../events/IOErrorEvent"
+import ProgressEvent	 	from "../events/ProgressEvent"
+import HTTPStatusEvent	 	from "../events/HTTPStatusEvent"
+import URLLoaderDataFormat 	from "./URLLoaderDataFormat"
+import URLRequest 			from "./URLRequest"
+import URLRequestMethod		from "./URLRequestMethod"
+import URLVariables			from "./URLVariables"
 
 /**
  * The URLLoader is used to load a single file, as part of a resource.

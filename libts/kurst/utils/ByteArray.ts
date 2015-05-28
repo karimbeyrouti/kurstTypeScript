@@ -1,4 +1,4 @@
-import ByteArrayBase = require("./ByteArrayBase");
+import ByteArrayBase from "./ByteArrayBase"
 
 class ByteArray extends ByteArrayBase
 {

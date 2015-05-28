@@ -1,4 +1,4 @@
-import Random = require( './Random');
+import Random from  './Random'
 
 class NumberUtils{
 

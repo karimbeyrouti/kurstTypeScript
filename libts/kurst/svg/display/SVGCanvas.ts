@@ -1,7 +1,7 @@
-import Event                	= require("../../events/Event");
-import EventDispatcher        	= require("../../events/EventDispatcher");
-import SVGDisplayObjectBase     = require("./../core/SVGDisplayObjectBase");
-import SVGObjectBase			= require("./../core/SVGObjectBase");
+import Event                	from "../../events/Event"
+import EventDispatcher        	from "../../events/EventDispatcher"
+import SVGDisplayObjectBase     from "./../core/SVGDisplayObjectBase"
+import SVGObjectBase			from "./../core/SVGObjectBase"
 
 class SVGCanvas extends SVGDisplayObjectBase
 {

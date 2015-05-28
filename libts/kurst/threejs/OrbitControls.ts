@@ -10,10 +10,10 @@
 * @author Karim Beyrouti / http://kurst.co.uk ( typescript conversion )
 */
 
-import EventDispatcher 			= require("../events/EventDispatcher");
-import Event 					= require("../events/Event");
-import OrbitControlsState		= require("./OrbitControlsState");
-import OrbitControlsKeys		= require("./OrbitControlsKeys");
+import EventDispatcher 			from "../events/EventDispatcher"
+import Event 					from "../events/Event"
+import OrbitControlsState		from "./OrbitControlsState"
+import OrbitControlsKeys		from "./OrbitControlsKeys"
 
 
 class OrbitControls extends EventDispatcher {

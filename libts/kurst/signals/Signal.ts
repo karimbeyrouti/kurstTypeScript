@@ -22,7 +22,7 @@
 * @constructor
 */
 
-import SignalBinding			= require("./SignalBinding");
+import SignalBinding			from "./SignalBinding"
 
 class Signal {
 

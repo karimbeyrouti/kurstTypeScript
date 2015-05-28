@@ -15,7 +15,7 @@
 *
 */
 
-import Signal			= require("./Signal");
+import Signal			from "./Signal"
 
 class SignalBinding {
 

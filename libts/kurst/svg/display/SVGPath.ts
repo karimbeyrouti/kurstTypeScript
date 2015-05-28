@@ -1,6 +1,6 @@
-import SVGDisplayObjectBase	= require("./../core/SVGDisplayObjectBase");
-import SVGPathCommandDef    = require("./../data/SVGPathCommandDef");
-import SVGPathCommand       = require("./../data/SVGPathCommand");
+import SVGDisplayObjectBase	from "./../core/SVGDisplayObjectBase"
+import SVGPathCommandDef    from "./../data/SVGPathCommandDef"
+import SVGPathCommand       from "./../data/SVGPathCommand"
 
 class SVGPath extends SVGDisplayObjectBase
 {

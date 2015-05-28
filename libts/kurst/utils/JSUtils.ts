@@ -1,5 +1,5 @@
 /// <reference path="../../libs/chrome.d.ts" />
-import Point = require("../geom/Point");
+import Point from "../geom/Point"
 
 class JSUtils{
 

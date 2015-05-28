@@ -1,8 +1,8 @@
 ///<reference path="../../libs/waa.d.ts" />
 ///<reference path="../../libs/usermedia.d.ts" />
 
-import EventDispatcher          = require("../events/EventDispatcher");
-import UserMediaManagerEvent    = require("../events/UserMediaManagerEvent");
+import EventDispatcher          from "../events/EventDispatcher"
+import UserMediaManagerEvent    from "../events/UserMediaManagerEvent"
 
 class AudioContextManager extends EventDispatcher {
 

@@ -2,7 +2,7 @@
 ///<reference path="../../libs/usermedia.d.ts" />
 
 
-import Event = require("./Event");
+import Event from "./Event"
 
 class UserMediaManagerEvent extends Event
 {

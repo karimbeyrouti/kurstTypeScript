@@ -1,4 +1,4 @@
-import Event = require("./Event");
+import Event from "./Event"
 
 /**
  * Base class for dispatching events

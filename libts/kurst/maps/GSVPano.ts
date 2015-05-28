@@ -4,8 +4,8 @@
 
 // Needs a good clean up - but currently functional
 
-import EventDispatcher 	= require("../events/EventDispatcher");
-import Event 			= require("../events/Event");
+import EventDispatcher 	from "../events/EventDispatcher"
+import Event 			from "../events/Event"
 
 class GSVPano extends EventDispatcher
 {
